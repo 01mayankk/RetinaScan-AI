@@ -68,7 +68,7 @@ app.add_middleware(
 
     allow_origins=["*"],
 
-    allow_credentials=True,
+    allow_credentials=False,
 
     allow_methods=["*"],
 
