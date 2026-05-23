@@ -11,7 +11,7 @@ license: mit
 
 # 👁️ RetaniaScan-AI Backend
 
-## AI-Powered Diabetic Retinopathy Detection Backend System
+AI-powered diabetic retinopathy detection backend using FastAPI, EfficientNetB2, GradCAM explainability, and PDF medical report generation.
 
 RetaniaScan-AI Backend is a production-style FastAPI backend for AI-powered diabetic retinopathy detection using EfficientNetB2, GradCAM explainability, and automated PDF medical report generation.
 
