@@ -6,7 +6,7 @@ RetaniaScan-AI is a full-stack AI healthcare platform for automated diabetic ret
 
 The system combines:
 
-- 🧠 EfficientNetB2 retinal classification
+- 🧠 Ensemble retinal classification
 - 🔥 GradCAM explainability heatmaps
 - 📄 Automated PDF medical reports
 - ⚡ FastAPI backend deployment
@@ -18,7 +18,7 @@ The system combines:
 # 🚀 Features
 
 ✅ Diabetic Retinopathy Severity Classification  
-✅ EfficientNetB2 Deep Learning Model  
+✅ EfficientNetB2 + DenseNet121 Deep Learning Model  
 ✅ Explainable AI using GradCAM  
 ✅ Confidence Score Analysis  
 ✅ Risk Level Prediction  
@@ -36,7 +36,7 @@ The system combines:
 
 | Component | Details |
 |---|---|
-| Model | EfficientNetB2 |
+| Model | EfficientNetB2  + DenseNet121|
 | Framework | PyTorch |
 | Classes | 5 |
 | Explainability | GradCAM |
@@ -56,11 +56,11 @@ flowchart TD
 
     A --> B[Frontend Application - React/Vercel]
 
-    B --> C[FastAPI Backend - HuggingFace]
+    B --> C[Gardio Backend - HuggingFace]
 
     C --> D[Image Preprocessing]
 
-    D --> E[EfficientNetB2 AI Model]
+    D --> E[EfficientNetB2 + DenseNet121 Model]
 
     E --> F[DR Severity Prediction]
 
